@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spacy = "==3.1.0"
+spacy-streamlit = "*"
+black = "==21.5b0"
+isort = "*"
+flake8 = "*"
+pre-commit = "*"
+mypy = "*"
+xlsxwriter = "==3.0.3"
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz"}
+hydralit-components = "*"
+hydralit = "*"
+streamlit = "==1.7.0"
+protobuf = "==3.20.0rc1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
