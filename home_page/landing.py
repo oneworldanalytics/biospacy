@@ -52,7 +52,7 @@ class landing_app(HydraHeadApp):
         st.write("Funding")
         st.write(
             """
-        The development of Biospacy {COUNTRY} forms part of the [Bioinnovation Africa project](https://www.giz.de/en/worldwide/78516.html) of the \
+        The development of Biospacy {COUNTRY} was supported by the [Bioinnovation Africa project](https://www.giz.de/en/worldwide/78516.html) of the \
         [ABS Initiative](http://www.abs-initiative.info/) coordinated by [GIZ](https://www.giz.de/en/html/index.html) in partnership with the \
         [South African Department of Environment, Forestry and Fisheries (DEFF)](https://www.environment.gov.za/).
             """
